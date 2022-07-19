@@ -1,0 +1,30 @@
+{{>layout/header}}
+<div class="container">
+  <br>
+  <br>
+  <h3 class="d-inline-bl">잡담 게시판</h3>
+  <table class="table">
+    <colgroup>
+      <col width="10%">
+      <col width="60%">
+      <col width="30%">
+    </colgroup>
+    <thead class="thead-inverse">
+    <tr>
+      <th>번호</th>
+      <th>제목</th>
+      <th>작성자</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td scope="row"></td>
+      <td><a href="/view/<%= bItem.bId %>"></a></td>
+      <td></td>
+    </tr>
+    </tbody>
+  </table>
+
+  <a href="/write" class="btn btn-outline-success">글쓰기</a>
+</div>
+{{>layout/footer}}
